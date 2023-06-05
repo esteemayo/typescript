@@ -68,11 +68,11 @@ function add(num1, num2) {
     return num1 + num2;
 }
 add(5, 10);
-function plus(num1, num2) {
+function plus1(num1, num2) {
     if (num2) {
         return num1 + num2;
     }
     return num1;
 }
-plus(3);
-plus(5, 7);
+plus1(3);
+plus1(5, 7);
