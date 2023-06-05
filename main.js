@@ -21,3 +21,11 @@ console.log(list2);
 // tuple
 var person1 = ['John', 30];
 console.log(person1);
+// tuple array
+var person2;
+person2 = [
+    ['John', 30],
+    ['Mary', 28],
+    ['Alice', 26],
+];
+console.log(person2.flat());
