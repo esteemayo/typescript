@@ -104,3 +104,14 @@ function plus1(num1: number, num2?: number): number {
 
 plus1(3);
 plus1(5, 7);
+
+// default parameter
+function plus2(num1: number, num2: number = 10): number {
+  if (num2) {
+    return num1 + num2;
+  }
+  return num1;
+}
+
+plus2(5, 10);
+plus2(5);
