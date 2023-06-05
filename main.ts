@@ -95,6 +95,7 @@ function add(num1: number, num2: number): number {
 
 add(5, 10);
 
+// optional parameter
 function plus1(num1: number, num2?: number): number {
   if (num2) {
     return num1 + num2;

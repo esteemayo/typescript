@@ -68,6 +68,7 @@ function add(num1, num2) {
     return num1 + num2;
 }
 add(5, 10);
+// optional parameter
 function plus1(num1, num2) {
     if (num2) {
         return num1 + num2;
