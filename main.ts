@@ -13,3 +13,6 @@ let sentence = `
 `;
 
 console.log(sentence);
+
+let n: null = null;
+let u: undefined = undefined;
