@@ -5,3 +5,5 @@ console.log(message);
 var isBeginner = true;
 var total = 0;
 var name = 'John';
+var sentence = "\n  My name is ".concat(name, ",\n  I'm a beginner is TypeScript\n");
+console.log(sentence);
