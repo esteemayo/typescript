@@ -53,3 +53,13 @@ enum Color {
 
 let c: Color = Color.Green;
 console.log(c);
+
+// any type
+let randomValue: any = 10;
+randomValue = true;
+randomValue = 'John Doe';
+
+let myVariable: any = 10;
+console.log(myVariable.name);
+myVariable();
+myVariable.toUpperCase();
