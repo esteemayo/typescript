@@ -75,3 +75,8 @@ myVariable.toUpperCase();
 // type assertion
 let myVariable2: unknown = 30;
 (myVariable2 as string).toUpperCase();
+
+// type inference
+let a;
+a = 10;
+a = true;
