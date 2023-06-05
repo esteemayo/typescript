@@ -26,3 +26,6 @@ let list2: Array<number> = [1, 2, 3];
 
 list1.push(4);
 console.log(list1);
+
+list2.splice(2, 1, 5);
+console.log(list2);
