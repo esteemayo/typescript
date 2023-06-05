@@ -28,7 +28,7 @@ person2 = [
     ['Mary', 28],
     ['Alice', 26],
 ];
-console.log(person2.flat());
+console.log(person2);
 // enum
 var Color;
 (function (Color) {
