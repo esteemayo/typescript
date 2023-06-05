@@ -46,3 +46,6 @@ var myVariable = 10;
 console.log(myVariable.name);
 myVariable();
 myVariable.toUpperCase();
+// type assertion
+var myVariable2 = 30;
+myVariable2.toUpperCase();
