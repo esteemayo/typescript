@@ -58,3 +58,4 @@ myVariable2.toUpperCase();
 var a;
 a = 10;
 a = true;
+var b = 20;
