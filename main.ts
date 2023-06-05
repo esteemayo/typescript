@@ -133,3 +133,18 @@ let p = {
 };
 
 fullName(p);
+
+// class and access modifiers
+class Employee {
+  constructor(public name: string) {
+    this.name = name;
+  }
+
+  greet() {
+    console.log(`Good Morning ${this.name}`);
+  }
+}
+
+const emp = new Employee('Emmanuel Adebayo');
+console.log(emp);
+emp.greet();
