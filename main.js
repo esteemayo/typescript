@@ -87,7 +87,6 @@ function plus2(num1, num2) {
 }
 plus2(5, 10);
 plus2(5);
-// interfaces
 function fullName(person) {
     console.log("".concat(person.firstName, " ").concat(person.lastName));
 }
