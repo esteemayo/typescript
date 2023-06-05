@@ -82,3 +82,8 @@ a = 10;
 a = true;
 
 let b = 20;
+
+// union
+let multiType: number | boolean;
+multiType = 20;
+multiType = true;
