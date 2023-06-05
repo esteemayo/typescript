@@ -59,3 +59,7 @@ var a;
 a = 10;
 a = true;
 var b = 20;
+// union
+var multiType;
+multiType = 20;
+multiType = true;
