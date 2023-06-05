@@ -7,3 +7,5 @@ var total = 0;
 var name = 'John';
 var sentence = "\n  My name is ".concat(name, ",\n  I'm a beginner is TypeScript\n");
 console.log(sentence);
+var n = null;
+var u = undefined;
