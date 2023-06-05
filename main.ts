@@ -87,3 +87,10 @@ let b = 20;
 let multiType: number | boolean;
 multiType = 20;
 multiType = true;
+
+// functions
+function add(num1: number, num2: number): number {
+  return num1 + num2;
+}
+
+add(5, 10);
