@@ -80,3 +80,5 @@ let myVariable2: unknown = 30;
 let a;
 a = 10;
 a = true;
+
+let b = 20;
