@@ -76,3 +76,13 @@ function plus1(num1, num2) {
 }
 plus1(3);
 plus1(5, 7);
+// default parameter
+function plus2(num1, num2) {
+    if (num2 === void 0) { num2 = 10; }
+    if (num2) {
+        return num1 + num2;
+    }
+    return num1;
+}
+plus2(5, 10);
+plus2(5);
