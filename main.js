@@ -18,3 +18,6 @@ list1.push(4);
 console.log(list1);
 list2.splice(2, 1, 5);
 console.log(list2);
+// tuple
+var person1 = ['John', 30];
+console.log(person1);
