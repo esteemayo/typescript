@@ -95,12 +95,12 @@ function add(num1: number, num2: number): number {
 
 add(5, 10);
 
-function plus(num1: number, num2?: number): number {
+function plus1(num1: number, num2?: number): number {
   if (num2) {
     return num1 + num2;
   }
   return num1;
 }
 
-plus(3);
-plus(5, 7);
+plus1(3);
+plus1(5, 7);
