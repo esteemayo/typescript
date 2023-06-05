@@ -54,3 +54,7 @@ myVariable.toUpperCase();
 // type assertion
 var myVariable2 = 30;
 myVariable2.toUpperCase();
+// type inference
+var a;
+a = 10;
+a = true;
