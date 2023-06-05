@@ -42,8 +42,13 @@ console.log(c);
 var randomValue = 10;
 randomValue = true;
 randomValue = 'John Doe';
+function hasName(obj) {
+    return !!obj && typeof obj === 'object' && 'name' in obj;
+}
 var myVariable = 10;
-console.log(myVariable.name);
+if (hasName(myVariable)) {
+    console.log(myVariable.name);
+}
 myVariable();
 myVariable.toUpperCase();
 // type assertion
