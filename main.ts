@@ -43,3 +43,13 @@ person2 = [
 ];
 
 console.log(person2.flat());
+
+// enum
+enum Color {
+  Red = 'Red',
+  Green = 'Green',
+  Blue = 'Blue',
+}
+
+let c: Color = Color.Green;
+console.log(c);
