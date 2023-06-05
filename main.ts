@@ -118,7 +118,12 @@ plus2(5, 10);
 plus2(5);
 
 // interfaces
-function fullName(person: { firstName: string; lastName: string }): void {
+interface Person {
+  firstName: string;
+  lastName: string;
+}
+
+function fullName(person: Person): void {
   console.log(`${person.firstName} ${person.lastName}`);
 }
 
