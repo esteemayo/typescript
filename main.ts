@@ -120,7 +120,7 @@ plus2(5);
 // interfaces
 interface Person {
   firstName: string;
-  lastName: string;
+  lastName?: string;
 }
 
 function fullName(person: Person): void {
