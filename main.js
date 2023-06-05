@@ -11,3 +11,8 @@ var n = null;
 var u = undefined;
 var isNew = null;
 var myName = undefined;
+// array
+var list1 = [1, 2, 3];
+var list2 = [1, 2, 3];
+list1.push(4);
+console.log(list1);
