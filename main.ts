@@ -42,7 +42,7 @@ person2 = [
   ['Alice', 26],
 ];
 
-console.log(person2.flat());
+console.log(person2);
 
 // enum
 enum Color {
