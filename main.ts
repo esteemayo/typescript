@@ -59,8 +59,16 @@ let randomValue: any = 10;
 randomValue = true;
 randomValue = 'John Doe';
 
+function hasName(obj: any): obj is { name: string } {
+  return !!obj && typeof obj === 'object' && 'name' in obj;
+}
+
 let myVariable: any = 10;
-console.log(myVariable.name);
+
+if (hasName(myVariable)) {
+  console.log(myVariable.name);
+}
+
 myVariable();
 myVariable.toUpperCase();
 
