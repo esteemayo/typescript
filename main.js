@@ -29,3 +29,12 @@ person2 = [
     ['Alice', 26],
 ];
 console.log(person2.flat());
+// enum
+var Color;
+(function (Color) {
+    Color["Red"] = "Red";
+    Color["Green"] = "Green";
+    Color["Blue"] = "Blue";
+})(Color || (Color = {}));
+var c = Color.Green;
+console.log(c);
