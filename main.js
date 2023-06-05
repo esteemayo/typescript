@@ -63,3 +63,8 @@ var b = 20;
 var multiType;
 multiType = 20;
 multiType = true;
+// functions
+function add(num1, num2) {
+    return num1 + num2;
+}
+add(5, 10);
