@@ -9,8 +9,8 @@ var sentence = "\n  My name is ".concat(name, ",\n  I'm a beginner is TypeScript
 console.log(sentence);
 var n = null;
 var u = undefined;
-var isNew = null;
-var myName = undefined;
+// let isNew: boolean = null;
+// let myName: string = undefined;
 // array
 var list1 = [1, 2, 3];
 var list2 = [1, 2, 3];
