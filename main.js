@@ -49,11 +49,11 @@ var myVariable = 10;
 if (hasName(myVariable)) {
     console.log(myVariable.name);
 }
-myVariable();
-myVariable.toUpperCase();
+// myVariable();
+// myVariable.toUpperCase();
 // type assertion
 var myVariable2 = 30;
-myVariable2.toUpperCase();
+// (myVariable2 as string).toUpperCase();
 // type inference
 var a;
 a = 10;
@@ -87,3 +87,12 @@ function plus2(num1, num2) {
 }
 plus2(5, 10);
 plus2(5);
+// interfaces
+function fullName(person) {
+    console.log("".concat(person.firstName, " ").concat(person.lastName));
+}
+var p = {
+    firstName: 'John',
+    lastName: 'Doe',
+};
+fullName(p);
