@@ -148,3 +148,18 @@ class Employee {
 const emp = new Employee('Emmanuel Adebayo');
 console.log(emp);
 emp.greet();
+
+class Manager extends Employee {
+  constructor(public managerName: string) {
+    super(managerName);
+  }
+
+  delegateWork() {
+    console.log('Manager delegating tasks');
+  }
+}
+
+const m = new Manager('John Doe');
+m.delegateWork();
+m.greet();
+console.log(m.name);
