@@ -69,12 +69,12 @@ if (hasName(myVariable)) {
   console.log(myVariable.name);
 }
 
-myVariable();
-myVariable.toUpperCase();
+// myVariable();
+// myVariable.toUpperCase();
 
 // type assertion
 let myVariable2: unknown = 30;
-(myVariable2 as string).toUpperCase();
+// (myVariable2 as string).toUpperCase();
 
 // type inference
 let a;
@@ -116,3 +116,15 @@ function plus2(num1: number, num2: number = 10): number {
 
 plus2(5, 10);
 plus2(5);
+
+// interfaces
+function fullName(person: { firstName: string; lastName: string }): void {
+  console.log(`${person.firstName} ${person.lastName}`);
+}
+
+let p = {
+  firstName: 'John',
+  lastName: 'Doe',
+};
+
+fullName(p);
