@@ -19,3 +19,10 @@ let u: undefined = undefined;
 
 let isNew: boolean = null;
 let myName: string = undefined;
+
+// array
+let list1: number[] = [1, 2, 3];
+let list2: Array<number> = [1, 2, 3];
+
+list1.push(4);
+console.log(list1);
