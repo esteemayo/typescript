@@ -95,3 +95,17 @@ var p = {
     lastName: 'Doe',
 };
 fullName(p);
+// class and access modifiers
+var Employee = /** @class */ (function () {
+    function Employee(name) {
+        this.name = name;
+        this.name = name;
+    }
+    Employee.prototype.greet = function () {
+        console.log("Good Morning ".concat(this.name));
+    };
+    return Employee;
+}());
+var emp = new Employee('Emmanuel Adebayo');
+console.log(emp);
+emp.greet();
