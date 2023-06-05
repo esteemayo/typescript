@@ -38,3 +38,11 @@ var Color;
 })(Color || (Color = {}));
 var c = Color.Green;
 console.log(c);
+// any type
+var randomValue = 10;
+randomValue = true;
+randomValue = 'John Doe';
+var myVariable = 10;
+console.log(myVariable.name);
+myVariable();
+myVariable.toUpperCase();
