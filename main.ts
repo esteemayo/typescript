@@ -33,3 +33,13 @@ console.log(list2);
 // tuple
 let person1: [string, number] = ['John', 30];
 console.log(person1);
+
+// tuple array
+let person2: [string, number][];
+person2 = [
+  ['John', 30],
+  ['Mary', 28],
+  ['Alice', 26],
+];
+
+console.log(person2.flat());
